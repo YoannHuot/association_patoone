@@ -1,0 +1,61 @@
+.evenement__section {
+	display: flex;
+	flex-direction: row;
+}
+
+.archivre__section {
+	width: 20%;
+}
+
+.archive__card {
+	margin-top: 1rem;
+}
+.archivre__section h2 {
+	font-size: 16px;
+	color: gray;
+}
+
+.archivre__section p,
+h6 {
+	margin-bottom: 0;
+	color: gray;
+	font-size: 12px !important;
+}
+
+.evenement__mensuel {
+	width: 70%;
+}
+.evenement__mensuel article {
+	width: 100%;
+	height: auto;
+
+	border-radius: 0.5rem;
+}
+
+.evenement__mensuel article img {
+	object-fit: cover;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.evenement__section {
+		display: flex;
+		flex-direction: column;
+	}
+	.archivre__section {
+		padding-left: 1.5rem;
+		width: 100%;
+	}
+
+	.archivre__section h2 {
+		font-size: 24px !important;
+	}
+
+	.archivre__section p {
+		margin-bottom: 0;
+	}
+
+	.evenement__mensuel {
+		width: 100%;
+	}
+}

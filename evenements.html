@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<title>Patoone</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="evenements.css" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -33,7 +33,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="home nav-link active" aria-current="page" href="#">Home</a>
+							<a class="home nav-link active" aria-current="page" href="/">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/evenements.html">Nos événements</a>
@@ -43,14 +43,65 @@
 			</div>
 		</nav>
 
-		<!-- BANNER -->
-		<img src="/images/chien3.jpg" class="img-fluid relative" alt="..." />
-		<div class="introduction" v>Bienvenue sur Patoone, repère pour chien</div>
+		<div class="evenement__section">
+			<section class="evenement__mensuel px-4">
+				<h2 class="pt-4">Evènement</h2>
+				<article class="card mb-4">
+					<div class="card-header">
+						<h3>MARDI 26 JUILLET : BRADERIE-BROCANTE DU REFUGE</h3>
+						<p>Evenement</p>
+					</div>
+					<img class="evenement__img" src="./images/moshe-schneider-brihpqfZQBc-unsplash.jpg" />
+					<a href="./images/moshe-schneider-brihpqfZQBc-unsplash.jpg" class="btn btn-primary"
+						>En savoir plus</a
+					>
+				</article>
+				<article class="card mb-4">
+					<div class="card-header">
+						<h3>SAMEDI 6 AOÛt : PROMENADE COLLECTIVE</h3>
+						<p>Evenement</p>
+					</div>
+					<img class="evenement__img" src="./images/alvan-nee-T-0EW-SEbsE-unsplash.jpg" />
+					<a href="./images/alvan-nee-T-0EW-SEbsE-unsplash.jpg" class="btn btn-primary">En savoir plus</a>
+				</article>
+
+				<article class="card mb-4">
+					<div class="card-header">
+						<h3>DIMANCHE 4 SEPTEMBRE : BARBECUE DES BÉNÉVOLES</h3>
+						<p>Evenement</p>
+					</div>
+					<img class="evenement__img" src="./images/alyssa-graham-hMjKoP4as9A-unsplash.jpg" />
+					<a href="./images/alyssa-graham-hMjKoP4as9A-unsplash.jpg" class="btn btn-primary">En savoir plus</a>
+				</article>
+			</section>
+
+			<section class="archivre__section">
+				<h2>Les précédents événements</h2>
+
+				<div class="archive__card">
+					<h6>Fête de l'association</h6>
+					<p>14 Juin 2022</p>
+					<p>Patoone fête ses 3 ans !</p>
+				</div>
+
+				<div class="archive__card">
+					<h6>Patoone à la SPA</h6>
+					<p>12 Févrrier 2021</p>
+					<p>Les patoones rencontrent des copains à la SPA de Brignais</p>
+				</div>
+
+				<div class="archive__card">
+					<h6>Patoone à la mer !</h6>
+					<p>17 Juillet 2020</p>
+					<p>L'occasion de changer d'air pour nos colocatiares.</p>
+				</div>
+			</section>
+		</div>
 
 		<!-- Section  -->
 
 		<footer class="text-center text-lg-start bg-light text-muted" style="padding-top: 2rem">
-			<section class="">
+			<section class="evenement__archive">
 				<div class="container text-center text-lg-start mt-5">
 					<div class="row mt-3">
 						<div class="col-lg-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
