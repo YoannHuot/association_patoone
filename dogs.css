@@ -1,0 +1,52 @@
+.picto__chiens {
+	min-width: 90px;
+}
+
+.section__background {
+	background-color: #fefae0;
+}
+.pictures__chiens {
+	max-height: 300px !important;
+	height: 45% !important;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+	.row {
+		--bs-gutter-x: 0rem !important;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.dogs__description {
+		padding-left: 4px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.img-fluid {
+		height: 350px !important;
+	}
+
+	.introduction {
+		padding: 0.75rem;
+		font-size: 16px;
+	}
+
+	.banner__title__text {
+		font-size: 1rem;
+	}
+
+	.card-text {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.infos {
+		height: auto !important;
+		padding-bottom: 24px;
+	}
+	.infos p {
+		height: auto !important;
+	}
+}

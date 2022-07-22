@@ -62,8 +62,7 @@ $(".dog").click((e) => {
 	}
 
 	if (localStorage.getItem("currentDog")) {
-		const url = location.href;
-		const newUrl = url + "chiens.html";
+		const newUrl = "dogs.html";
 
 		location.href = newUrl;
 	}

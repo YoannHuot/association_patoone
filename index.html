@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<title>Patoone</title>
-		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-			crossorigin="anonymous"
+		<meta
+			name="description"
+			content="Patoone est un refuge pour chien basé à Lyon. Contactez nous si vous souhaitez nous aider ou entreprendre une démarche d'adoption."
 		/>
+		<meta name="robots" content="index" />
+		<title>Patoone, refuge pour chien.</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-expand-lg bg-light">
 			<div class="container-fluid">
-				<a class="home navbar-brand" href="/">Patoone</a>
+				<h1>
+					<a class="home navbar-brand" href="/">Patoone</a>
+				</h1>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -36,7 +36,7 @@
 							<a class="home nav-link active" aria-current="page" href="/">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/evenements.html">Nos événements</a>
+							<a class="nav-link" href="/events.html">Nos événements</a>
 						</li>
 					</ul>
 				</div>
@@ -44,71 +44,71 @@
 		</nav>
 
 		<!-- BANNER -->
-		<img src="/images/chien3-min.jpg" class="img-fluid relative" alt="..." />
+		<img src="/images/home/chien3-min.jpg" class="img-fluid relative" alt="banner presentation with a dog" />
 		<div class="introduction">Bienvenue sur Patoone, refuge pour chien</div>
 		<!-- Section  -->
-		<h2 class="section_title">Les chiens du refuge</h2>
+		<h2 class="section__title">Les chiens du refuge</h2>
 		<section class="row" style="margin: 2rem">
 			<div class="card col-lg-4">
-				<img src="./images/chiko/chiko1.jpg" class="card-img-top" alt="..." />
+				<img src="./images/chiko/chiko1.jpg" class="card-img-top" alt="a dog named chiko" />
 				<div class="card-body">
 					<h5 class="card-title">Chiko</h5>
 					<p class="card-text">
 						Jeune Berger australien de 2 ans, aura besoin d'une maison avec jardin cloturé.
 					</p>
-					<button class="dog chiko btn btn-primary">En savoir plus</button>
+					<button class="dog chiko btn">En savoir plus</button>
 				</div>
 			</div>
 			<div class="card col-lg-4">
-				<img src="./images/andre/andre1.jpg" class="card-img-top" alt="..." />
+				<img src="./images/andre/andre1.jpg" class="card-img-top" alt="a dog names andre" />
 				<div class="card-body">
 					<h5 class="card-title">Andre</h5>
 					<p class="card-text">Shiba de 5ans, saura s'adapter en appartement à condition d'y être seul.</p>
-					<button class="dog andre btn btn-primary">En savoir plus</button>
+					<button class="dog andre btn">En savoir plus</button>
 				</div>
 			</div>
 			<div class="card col-lg-4">
-				<img src="./images/stella/stella2.jpg" class="card-img-top" alt="..." />
+				<img src="./images/stella/stella2.jpg" class="card-img-top" alt="a dog names stella" />
 				<div class="card-body">
 					<h5 class="card-title">Stella</h5>
 					<p class="card-text">Senior de 9 ans, Stella cherche une famille pour y faire ses vieux jours.</p>
-					<button class="dog stella btn btn-primary">En savoir plus</button>
+					<button class="dog stella btn">En savoir plus</button>
 				</div>
 			</div>
 			<div class="card col-lg-4">
-				<img src="./images/dwight/dwight1.jpg" class="card-img-top" alt="..." />
+				<img src="./images/dwight/dwight1.jpg" class="card-img-top" alt="a dog names dwight" />
 				<div class="card-body">
 					<h5 class="card-title">Dwight</h5>
 					<p class="card-text">Chien joueur de 4 ans, il aura besoin de beaucoup d'attention.</p>
-					<button class="dog dwight btn btn-primary">En savoir plus</button>
+					<button class="dog dwight btn">En savoir plus</button>
 				</div>
 			</div>
 		</section>
 
 		<!-- Présentation -->
-		<h2 class="section_title">Patoone en bref</h2>
-		<section class="bg-primary">
+		<h2 class="section__title">Patoone en bref</h2>
+		<section class="section__background">
 			<div class="row gx-0" style="margin: 2rem">
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/rescue.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/rescue.png" alt="picto rescue" />
 					<h5 class="card-title">Secourir</h5>
 					<p>Patoone intervient en France pour le bien-être, la défense et la protection des animaux.</p>
 				</div>
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/rescue-dog.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/rescue-dog.png" alt="picto dog with a bandage" />
 					<h5 class="card-title">Soigner</h5>
 					<p>Les animaux secourus sont soignés, et choyés par nos équipes de vétérinaires bénévoles</p>
 				</div>
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/protection.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/protection.png" alt="picto protect dog" />
 					<h5 class="card-title">Protéger</h5>
 					<p>
 						Durant leur séjour chez Patoone, les animaux sont préservés et placés sous surveillance
 						médicale. Nous faisons tout notre possible pour leur offrir le maximum durant leur passage ici
 					</p>
 				</div>
-				<div class="patoone-card col-lg-3 px-4 pb-4">
-					<img src="./images/dog.png" />
+				<div class="patoone__card col-lg-3 px-4 pb-4">
+					<img src="./images/home/dog.png" alt="picto adopt dog" />
 					<h5 class="card-title">Adopter</h5>
 					<p>
 						L'adoption est la raison d'être de l'association, même si nous aimons tous les animaux, ces
@@ -119,7 +119,7 @@
 		</section>
 
 		<!-- Nous aider -->
-		<h2 class="section_title">Nos engagements</h2>
+		<h2 class="section__title">Nos engagements</h2>
 		<section class="section__engagement">
 			<ul>
 				<li class="pb-2 pt-2 px-3">
@@ -137,32 +137,32 @@
 				</li>
 			</ul>
 
-			<div class="engagement__section__picture row">
+			<div class="engagement__pictures row">
 				<div class="engagement__picture col-lg-3">
-					<img src="./images/partyBoy.jpg" class="img-thumbnail" alt="dog birthday party" />
+					<img src="./images/home/partyBoy.jpg" class="img-thumbnail" alt="dog birthday party" />
 				</div>
 				<div class="engagement__picture col-lg-3">
-					<img src="./images/thanksBoy.jpg " class="img-thumbnail" alt="dog with a thanks card" />
+					<img src="./images/home/thanksBoy.jpg " class="img-thumbnail" alt="dog with a thanks card" />
 				</div>
 				<div class="engagement__picture col-lg-3">
-					<img src="./images/christmasBoy-min.jpg" class="img-thumbnail" alt="dog dress for christmas" />
+					<img src="./images/home/christmasBoy-min.jpg" class="img-thumbnail" alt="dog dress for christmas" />
 				</div>
 			</div>
 		</section>
 
-		<h2 class="section_title">La démache d'adoption</h2>
-		<section class="bg-primary">
+		<h2 class="section__title">La démache d'adoption</h2>
+		<section class="section__background">
 			<div class="row gx-0" style="margin-top: 2rem">
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/formulaire-dadoption.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/formulaire-dadoption.png" alt="picto form" />
 					<h5 class="card-title">Formulaire</h5>
 					<p>
 						Si un chien vous intéresse, un formulaire d'enquête vous sera demandé. Vous y expliciterez vos
 						motivations et nous fournirez des détails sur votre capacité d'acceuil.
 					</p>
 				</div>
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/placeholder.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/placeholder.png" alt="picto map" />
 					<h5 class="card-title">Visite</h5>
 					<p>
 						Une fois le formulaire validé, il est nécessaire de programmer une visite avec la famille
@@ -171,8 +171,8 @@
 					</p>
 				</div>
 
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/chronometre.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/chronometre.png" alt="picto chrono" />
 					<h5 class="card-title">Adaptation</h5>
 					<p>
 						Pendant 3 mois, le chien reste sous le contrôle de l'association. Des visites ponctuelles
@@ -180,8 +180,8 @@
 						d'expérience, mieux vaut prédir que guérir.
 					</p>
 				</div>
-				<div class="patoone-card col-lg-3 px-4">
-					<img src="./images/money.png" />
+				<div class="patoone__card col-lg-3 px-4">
+					<img src="./images/home/money.png" alt="picto money" />
 					<h5 class="card-title">Frais</h5>
 					<p>
 						Les frais qui vous seront demandés varieront selon les soins nécessités par le nouveau membre de
@@ -190,7 +190,7 @@
 				</div>
 			</div>
 		</section>
-		<footer class="text-center text-lg-start bg-light text-muted" style="padding-top: 2rem">
+		<footer class="text-center text-lg-start text-muted" style="padding-top: 2rem">
 			<section class="">
 				<div class="container text-center text-lg-start mt-5">
 					<div class="row mt-3">
@@ -210,7 +210,7 @@
 			</section>
 			<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
 				© 2022 Copyright:
-				<p class="text-reset fw-bold" href="https://mdbootstrap.com/">Patoone.com</p>
+				<p class="text-reset fw-bold">Patoone.com</p>
 			</div>
 			<!-- Copyright -->
 		</footer>
@@ -222,21 +222,6 @@
 		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 		crossorigin="anonymous"
 	/>
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-		integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-		crossorigin="anonymous"
-	></script>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

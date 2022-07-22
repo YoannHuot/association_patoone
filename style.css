@@ -8,21 +8,21 @@
 
 .row {
 	--bs-gutter-x: 0rem;
+	display: flex;
+	justify-content: center;
 }
 
 .introduction {
-	color: white;
-	background-color: #0d6efd;
+	background-color: #ccd5ae;
 	padding: 1.5rem;
 	font-size: 24px;
-	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 
-.section_title {
+.section__title {
 	margin-top: 70px;
 	margin-left: 20px;
 }
@@ -46,7 +46,7 @@
 	margin-right: 1rem;
 }
 
-.patoone-card {
+.patoone__card {
 	display: flex;
 	flex-direction: column;
 	width: 15%;
@@ -56,12 +56,13 @@
 	padding-bottom: 40px;
 	text-align: center;
 }
-
-.row {
-	display: flex;
-	justify-content: center;
+.dog {
+	background-color: #d4a373 !important;
+	color: white !important;
+	font: bold;
 }
-.patoone-card img {
+
+.patoone__card img {
 	width: 100px;
 	height: 100px;
 	justify-content: center;
@@ -73,6 +74,10 @@
 	margin-bottom: 20px !important;
 }
 
+.section__background {
+	background-color: #fefae0;
+}
+
 .section__engagement {
 	display: flex;
 	flex-direction: column;
@@ -80,10 +85,15 @@
 	width: 100%;
 	align-items: center;
 }
-.section__engagement p {
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 30px;
+.section__engagement ul {
+	list-style-type: none;
+	text-align: center;
+	padding-inline-start: 0px;
+	margin-top: 10px;
+}
+
+.section__engagement li {
+	margin-bottom: 10px;
 }
 
 .engagement__picture {
@@ -96,7 +106,7 @@
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.engagement__section__picture {
+.engagement__pictures {
 	width: 80%;
 	display: flex;
 	flex-direction: row;
@@ -111,7 +121,7 @@
 
 	.introduction {
 		padding: 0.75rem;
-		font-size: 16px;
+		font-size: 20px;
 	}
 
 	.banner__title__text {
@@ -124,10 +134,10 @@
 }
 
 /* @media (min-width: 768px) {
-	.patoone-card {
+	.patoone__card {
 		text-align: center;
 	}
-	.patoone-card img {
+	.patoone__card img {
 		width: 150px;
 		height: 150px;
 	}
